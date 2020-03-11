@@ -28,9 +28,15 @@ Plant.create!(
 )
 
 Plant.create!(
+  name: "Brazilwood",
+  image_url: "https://static3.tcdn.com.br/img/img_prod/450860/muda_de_pau_brasil_caesalpinia_echinata_666_2_20190611094005.jpg",
+  garden: little
+)
+
+Plant.create!(
   name: "Dieff",
   image_url: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/dieffenbachia.jpg",
-  garden: other
+  garden: little
 )
 
 puts "Ready to go!"
