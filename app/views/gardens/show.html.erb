@@ -23,12 +23,14 @@
 <div class="border-top">
   <div class="row justify-content-center">
     <div class="col-6">
-      <h2>Add a new plant</h2>
-        <%= simple_form_for [@garden, @plant] do |f| %>
-          <%= f.input :name %>
-          <%= f.input :image_url %>
-          <%= f.submit class: "btn btn-success" %>
-        <% end %>
+      <div class="card p-3 my-3">
+        <h2>Add a new plant</h2>
+          <%= simple_form_for [@garden, @plant] do |f| %>
+            <%= f.input :name %>
+            <%= f.input :image_url %>
+            <%= f.submit class: "btn btn-success" %>
+          <% end %>
+      </div>
     </div>
   </div>
 </div>
