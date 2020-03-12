@@ -79,3 +79,9 @@ students = students_pictures.zip students_names
 students.each do |student|
   Plant.create! name: student[1], image_url: student[0], garden: batch_376
 end
+
+tags_names = %w[always\ late sleepy dutch laughy corona hungry]
+
+tags_names.each do |tag_name|
+  Tag.create! name: tag_name
+end
